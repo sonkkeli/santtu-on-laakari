@@ -1,0 +1,17 @@
+.app {
+  color: white;
+  font-family: Arial;
+  background-color: #282c34;
+}
+
+.title:hover {
+  color: #e0a1be;
+}
+
+.activebtn:active {
+  color: #e0a1be;
+}
+
+.copy-text:hover {
+  color: #e0a1be;
+}
