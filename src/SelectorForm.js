@@ -12,7 +12,7 @@ const SelectorForm = ({onChange, copyOnClick}) => {
   return (
     <Form onChange={onChange}>
       <Row>
-        <Col>
+        <Col sm={12} md={6}>
           <Container>
             {vals.values.map((v, index) => {
               if (index % 2 === 0) {
@@ -40,7 +40,7 @@ const SelectorForm = ({onChange, copyOnClick}) => {
             })}
           </Container>
         </Col>
-        <Col>
+        <Col sm={12} md={6}>
           <Container>
             {vals.values.map((v, index) => {
               if (index % 2 === 1) {
