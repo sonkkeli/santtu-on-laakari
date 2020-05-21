@@ -1,4 +1,5 @@
 # Santun lääkäriäppi
 
-### Available:    
+### Available:
+
 https://santtu-on-laakari.herokuapp.com/
