@@ -2,20 +2,20 @@ export const values = [
   {
     "title": "Antibiootti, Krea",
     "options": [
-      "Kefuroksiimi 1.5 g 1x3 iv. tekstinä: Antibiootiksi Kefuroksiimi 1.5g 1x3 iv",
-      "Tazocin 4g 1x3 iv. => Antibiootiksi Tazocin 4g 1x3 iv",
-      "Keftriaksoni 2g 1x1 iv => Antibiootiksi Keftriaksoni 2g x1 iv",
-      "G-PEN 2Milj KY 1x4 iv. => Antibiootiksi Gpen 2MILJ ky x 4i.v.", 
+      "Antibiootiksi Kefuroksiimi 1.5g 1x3 iv",
+      "Antibiootiksi Tazocin 4g 1x3 iv",
+      "Antibiootiksi Keftriaksoni 2g x1 iv",
+      "Antibiootiksi Gpen 2MILJ ky x 4i.v.", 
       "Muu?"
     ]
   },
   {
     "title": "Vitaalien seuranta",
     "options": [
-      "1x/vrk => tekstinä: vitaalien seuranta 1x/vrk. (ja muut samalla tavalla)",
-      "2x/vrk.",
-      "3x/vrk.",
-      "4x/vrk.",
+      "Vitaalien seuranta 1x/vrk.",
+      "Vitaalien seuranta 2x/vrk.",
+      "Vitaalien seuranta 3x/vrk.",
+      "Vitaalien seuranta 4x/vrk.",
       "Telemetriaseurantaan."
     ]
   },
