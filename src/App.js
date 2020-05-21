@@ -9,9 +9,8 @@ import { faClone } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
 const App = () => {
-  const [textToCopy, setTextToCopy] = useState([])
   const copyToClipboard = (text) => {
-    var fullLink = document.createElement('input');
+    var fullLink = document.createElement('textarea');
     document.body.appendChild(fullLink);
     fullLink.value = text;
     fullLink.select();
@@ -26,19 +25,15 @@ const App = () => {
 
   const copyAll = () => {
     var text = ''
-    var text2 = []
     for(var i = 0 ; i < 8 ; i++){
       var val = document.getElementById(`value${i}`).value
       text += val +'\n';
-      text2.push(val)
     }
     console.log(text)
     copyToClipboard(text)
-    setTextToCopy(text2)
   }
 
   const onChange = (event) => {
-    setTextToCopy([])
     if(event.target.id === 'value0'){
       copyOnClick(event.target.id)
     } else if(event.target.id === 'value1'){
@@ -80,9 +75,6 @@ const App = () => {
             </Row>            
           </Container>
       </Jumbotron>
-      <Container>
-        {textToCopy.map(t => <div>{t}</div>)}
-      </Container>
     </div>
   );
 }
