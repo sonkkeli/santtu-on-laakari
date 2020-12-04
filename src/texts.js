@@ -74,4 +74,11 @@ export const values = [
       'Atrodual 1x4 sään ja 1x1-2 tarv.',
     ],
   },
+  {
+    title: 'Onko keuhkoembolia poissuljettu?',
+    options: [
+      'Keuhkoembolia poissuljettu',
+      'Keuhkoembolia ei poissuljettu',
+    ],
+  },
 ]
